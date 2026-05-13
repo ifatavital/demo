@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="פלטפורמה לקביעת פגישות עבור עסקים קטנים ותיווך שירותים">
+    <title>BookEase - קביעת פגישות חכמה לעסקך</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar" role="navigation" aria-label="ניווט ראשי">
+            <div class="container">
+                <div class="navbar-brand">
+                    <h1 class="logo">📅 BookEase</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">תכונות</a></li>
+                    <li><a href="#benefits">יתרונות</a></li>
+                    <li><a href="#pricing">תמחור</a></li>
+                    <li><a href="#cta" class="nav-cta">התחל עכשיו</a></li>
+                </ul>
+                <div class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="תפריט ניווט">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" role="main">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">כל הפגישות בידך</h2>
+                <p class="hero-subtitle">
+                    פלטפורמה חכמה וקלה לקביעת פגישות 
+                    עבור עסקים קטנים ותיווך שירותים
+                </p>
+                <p class="hero-description">
+scr th,bu gus vhuo                </p>
+                <button class="btn btn-primary btn-large" onclick="scrollToSection('cta')">
+                    קביעת פגישה בחינם
+                </button>
+                <p class="hero-badge">✨ בחינם לשלוש פגישות ראשונות</p>
+            </div>
+            <div class="hero-image">
+                <div class="mockup">
+                    <div class="mockup-screen">
+                        <div class="calendar-demo">
+                            <div class="calendar-header">יוני 2026</div>
+                            <div class="calendar-grid">
+                                <div class="day-name">א</div>
+                                <div class="day-name">ב</div>
+                                <div class="day-name">ג</div>
+                                <div class="day-name">ד</div>
+                                <div class="day-name">ה</div>
+                                <div class="day-name">ו</div>
+                                <div class="day-name">ש</div>
+                                <div class="calendar-day">1</div>
+                                <div class="calendar-day">2</div>
+                                <div class="calendar-day">3</div>
+                                <div class="calendar-day available">4</div>
+                                <div class="calendar-day available">5</div>
+                                <div class="calendar-day available booked">6</div>
+                                <div class="calendar-day">7</div>
+                                <div class="calendar-day available">8</div>
+                                <div class="calendar-day available">9</div>
+                                <div class="calendar-day available">10</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">תכונות ייחודיות</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>ניהול קל</h3>
+                    <p>ממשק פשוט ונוח לניהול כל הפגישות שלך במקום אחד</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>תזכורות אוטומטיות</h3>
+                    <p>הודעות ל-SMS וודואל למניעת דילוגים על פגישות</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3>זמנים גמישים</h3>
+                    <p>קבע את שעות העבודה שלך והלקוחות יוכלו לבחור זמן נוח להם</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>תקשורת ישירה</h3>
+                    <p>שלח הודעות ותשובות לשאלות לקוחות ישירות בפלטפורמה</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>דוחות וניתוח</h3>
+                    <p>צפה בסטטיסטיקות מפורטות על הפגישות והלקוחות שלך</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3>בטיחות מלאה</h3>
+                    <p>הצפנה מוקצה וגיבוי אוטומטי של כל הנתונים שלך</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2 class="section-title">למה לבחור בנו?</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <span class="check-mark">✓</span>
+                    <div>
+                        <h3>לא דרוש ידע טכנולוגי</h3>
+                        <p>התחל להשתמש כבר היום בלא צורך בהגדרות מסובכות</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-mark">✓</span>
+                    <div>
+                        <h3>כל הפגישות בהיסטוריה אחת</h3>
+                        <p>שמור על ערוץ תקשורת אחד עם לקוחות שלך</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-mark">✓</span>
+                    <div>
+                        <h3>עדכוני זמן אמת</h3>
+                        <p>קבל התראה מיידית כשלקוח קובע או מבטל פגישה</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <span class="check-mark">✓</span>
+                    <div>
+                        <h3>תמיכה 24/7</h3>
+                        <p>צוות תמיכה שלנו כאן תמיד לעזור לך</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">תמחור פשוט וזול</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">חינם</div>
+                    <p class="price-subtitle">לחברות חדשות</p>
+                    <ul class="features-list">
+                        <li>✓ עד 20 פגישות בחודש</li>
+                        <li>✓ 1 עובד</li>
+                        <li>✓ קלנדר בסיסי</li>
+                        <li>✗ תזכורות SMS</li>
+                    </ul>
+                    <button class="btn btn-outline">בחר</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="badge">מומלץ</div>
+                    <h3>Pro</h3>
+                    <div class="price">₪49<span>/חודש</span></div>
+                    <p class="price-subtitle">לעסקים גדלים יותר</p>
+                    <ul class="features-list">
+                        <li>✓ עד 500 פגישות בחודש</li>
+                        <li>✓ עד 5 עובדים</li>
+                        <li>✓ קלנדר מתקדם</li>
+                        <li>✓ תזכורות SMS וואטסאפ</li>
+                    </ul>
+                    <button class="btn btn-primary">התחל</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">צור קשר</div>
+                    <p class="price-subtitle">עבור סוגי עסקים מיוחדים</p>
+                    <ul class="features-list">
+                        <li>✓ פגישות בלא הגבלה</li>
+                        <li>✓ עובדים בלא הגבלה</li>
+                        <li>✓ API וביצוע תאום</li>
+                        <li>✓ תמיכה דדיקטיבית</li>
+                    </ul>
+                    <button class="btn btn-outline">יצור קשר</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <h2>מוכנים להתחיל?</h2>
+            <p>הצטרפו לעשרות עסקים קטנים המשתמשים ב-BookEase להנהלת הפגישות שלהם</p>
+            <form class="cta-form" onsubmit="handleFormSubmit(event)">
+                <input 
+                    type="email" 
+                    placeholder="כתוב את הדוא״ל שלך" 
+                    required 
+                    aria-label="כתובת דוא״ל"
+                >
+                <button type="submit" class="btn btn-primary">קביעת פגישה בחינם</button>
+            </form>
+            <p class="form-hint">אתה תקבל קוד הפעלה תוך 2 דקות</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>BookEase</h4>
+                    <p>פתרון הקביעת פגישות המודרני ביותר עבור עסקים קטנים</p>
+                </div>
+                <div class="footer-section">
+                    <h4>מהר</h4>
+                    <ul>
+                        <li><a href="#features">תכונות</a></li>
+                        <li><a href="#pricing">תמחור</a></li>
+                        <li><a href="#about">אודות</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>עזרה</h4>
+                    <ul>
+                        <li><a href="#support">תמיכה</a></li>
+                        <li><a href="#privacy">פרטיות</a></li>
+                        <li><a href="#terms">תנאים</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>עקבו אחרינו</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="פייסבוק">f</a>
+                        <a href="#" aria-label="טוויטר">𝕏</a>
+                        <a href="#" aria-label="אינסטגרם">📷</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 BookEase. כל הזכויות שמורות.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
